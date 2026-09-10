@@ -1,16 +1,87 @@
-# React + Vite
+# CodePulse — LeetCode Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CodePulse is a React-based web application that lets you analyze and visualize a LeetCode user's profile and problem-solving statistics in one place.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*  Search LeetCode users by username
+*  View user profile information
+*  Visualize solved problems by difficulty
+*  View contest rating and number of question solved in that contest
+*  View problem-solving statistics
+*  View recent submissions
+*  Dark theme support
+*  Responsive dashboard
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **JavaScript**
+* **Bootstrap**
+* **React Router**
+* **Context API**
+* **Custom Hooks**
+* **REST API**
+* **Vite**
 
-## Expanding the ESLint configuration
+## API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CodePulse uses the [Alfa LeetCode API](https://alfa-leetcode-api.onrender.com/) to fetch LeetCode user data.
+
+
+src/
+├── components/
+│   ├── ContestStats.jsx
+│   ├── Loader.jsx
+│   ├── RecentSubmissions.jsx
+│   ├── SolvedStats.jsx
+│   └── UserInfo.jsx
+│
+├── context/
+│   └── ThemeProvider.jsx
+│
+├── hooks/
+│   └── useFetch.jsx
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Home.jsx
+│   └── NotFound.jsx
+│
+├── App.jsx
+├── main.jsx
+└── components/index.css
+
+
+## What I Learned
+
+This project helped me practice:
+
+* Building reusable React components
+* Managing state with `useState`
+* Fetching API data with `useEffect`
+* Creating custom React hooks
+* Managing global state with Context API
+* Routing with React Router
+* Handling loading and error states
+* Working with external REST APIs
+* Building responsive interfaces with Bootstrap
+
+## Future Improvements
+
+* Add more detailed contest analytics
+* Add submission heatmaps
+* Add language-wise statistics
+* Add comparison between multiple users
+* Improve data visualization
+* Add more detailed problem/topic analysis
+
+## Author
+
+**Digvijay**
+
+Engineering Student | React & DSA Learner
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
