@@ -29,29 +29,29 @@ CodePulse is a React-based web application that lets you analyze and visualize a
 CodePulse uses the [Alfa LeetCode API](https://alfa-leetcode-api.onrender.com/) to fetch LeetCode user data.
 
 
-src/
-├── components/
+src
+├── components
 │   ├── ContestStats.jsx
 │   ├── Loader.jsx
 │   ├── RecentSubmissions.jsx
 │   ├── SolvedStats.jsx
 │   └── UserInfo.jsx
 │
-├── context/
+├── context
 │   └── ThemeProvider.jsx
 │
-├── hooks/
+├── hooks
 │   └── useFetch.jsx
 │
-├── pages/
+├── pages
 │   ├── Dashboard.jsx
 │   ├── Home.jsx
 │   └── NotFound.jsx
 │
 ├── App.jsx
 ├── main.jsx
-└── components/index.css
-
+└── components
+    └── index.css
 
 ## What I Learned
 
