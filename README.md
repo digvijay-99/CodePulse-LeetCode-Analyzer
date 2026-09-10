@@ -81,7 +81,7 @@ This project helped me practice:
 
 **Digvijay**
 
-Engineering Student | React & DSA Learner
+2025UGEC041 
 
 ---
 
